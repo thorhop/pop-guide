@@ -24,6 +24,32 @@ And that's about it. A simple list for simple folk like me. I fiddled with the i
 
 In any case, I'm rambling. Check what I've got already.
 
+## Specifications
+
+1. Banner visuals (landscape, short height)
+   
+   1. Screenshots (884x288px, 8bit, png)
+   
+   2. GIF "Slideshow" (884x288px, 8bit, delayed frames from 1200ms and upwards to give time for comprehension, combined, gif optimized)
+   
+   3. MP4 "Screencasts" (884x288px, 29.5FPS, RGBa)
+
+2. Square visuals (1:1)
+   
+   1. Screenshots (512x512px, 8bit, png)
+   
+   2. GIF "Slideshow" (1080x1080px, cropped down to 512x512px on either edge depending upon subject, 8bit, delayed frames from 1200ms and upwards to give time for comprehension, combined, gif optimized).
+   
+   3. MP4 "Screencasts" (Same as above, viewport follows cursors (optional) 29.5FPS, RGBa)
+
+3. Fullscreen visuals (resolution 1080p, 29.5FPS, RGBa)
+   
+   1. Screenshots (1920x1080p, downscaled to 720p, jpg)
+   
+   2. MP4 "Screencasts" (720p, combined gif optimized)
+
+4. 
+
 ## Index
 
 1. Beginners Guide
