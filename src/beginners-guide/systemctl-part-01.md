@@ -1,8 +1,6 @@
 # Beginners guide to systemctl (Part 1): Services
 
-For an operating system to operate properly it needs to have certain functions that it can count on, applications that run in the background and take care of some logic and legwork to sustain a modern operating system. Services like a network or bluetooth manager, a print spool manager, and so on. These applications are what we call `services`.  `Systemd` manager services, among other things. This is done through the `systemctl` tool- To run it you'll need to crack open your favourite terminal, probably by pressing the superkey and writing "terminal". Once you've got it open let's check which services we have running.
-
-Seeing as `systemctl` doesn't just manage system and user services, but all sorts of other things that combine to become a full blown system management tool, we'll stick to the basics on how to manage our services for now. Let's begin with a list! Crack open **gnome-terminal** and run this command:
+For an operating system to... *operate* it needs a couple of other programs running that can help it with the odd job. Applications that run in the background and take care of some logic and legwork to sustain what we call a modern operating system. Services like a network or bluetooth manager application, a print spool manager, policy manager, secret key manager and so on, and so forth. These background applications are what we call `services`.  `Systemd` manages services, among other things. This is done through the `systemctl` tool. To run it you'll need to crack open your favourite terminal (**gnome-terminal**), probably by pressing the superkey and writing "terminal" in the activities menu. Once you've got the terminal open let's check which services we have running.
 
 ```bash
 systemctl --type service
