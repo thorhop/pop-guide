@@ -16,7 +16,7 @@ systemctl status system76-power.service
 
 ![seq02.gif](../../dist/assets/seq02.gif)
 
-Here we can see everything is fine. It's been loaded from `/etc/systemd/system/system76-power.service`, it's *enabled*, *active* *and* *running*. You can also see the "Process ID" (or "PID"), number of tasks, memory usage and even cgroup membership. We also see a snippet from the log of this particular service. Everything looks peachy keen, but if we scroll down we see that there's a problem with the service `grub-initrd-fallback.service`.  So we use the same command (`systemctl status`) but replace `grub-initrd-fallback.service` with `grub-initrd-fallback.service` to see what's going on with it.
+Here we can see everything is fine. It's been loaded from `/etc/systemd/system/system76-power.service`, it's *enabled*, *active* *and* *running*. You can also see the "Process ID" (or "PID"), number of tasks, memory usage and even cgroup membership. We also see a snippet from the log of this particular service. Everything looks peachy keen, but if we scroll down we see that there's a problem with the service `grub-initrd-fallback.service`.  So we use the same command (`systemctl status`) but replace `system76-power.service` with `grub-initrd-fallback.service` to see what's going on with that particular service.
 
 ![seq03.gif](../../dist/assets/seq03.gif)
 
