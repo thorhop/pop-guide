@@ -46,4 +46,4 @@ I use `sudo` because you need administrative priveliges, but if you forget to wr
 
 ![seq04.gif](../../dist/assets/seq04.gif)
 
-That might cause some headscratching once I try to run `virtualbox` again, but then again maybe I should move to `boxes`? Depends. Actually, you know what? Let's get it working - so I'm gonna try to run it *without* enabling it.
+That might cause some headscratching once I try to run `virtualbox` again, but then again maybe I should move to `gnome-boxes` (available to install)? Depends. Actually, you know what? Let's get it working - so I'm gonna try to run it *without* enabling it.
