@@ -46,4 +46,8 @@ I use `sudo` because you need administrative priveliges, but if you forget to wr
 
 ![seq04.gif](../../dist/assets/seq04.gif)
 
-That might cause some headscratching once I try to run `virtualbox` again, but then again maybe I should move to `gnome-boxes` (available to install)? Depends. Actually, you know what? Let's get it working - so I'm gonna try to run it *without* enabling it.
+As you can see the way `systemd` adds or removes services from being **enabled** or **disabled** is by linking files from the `systemd` service library (probably from `/usr/lib/systemd/system`) to the systemd `/etc/systemd/system` folder - in this case the `multi-user-target-wants` folder (more on that in an upcoming guide).
+
+![seq05.gif](/home/thorhop/Documents/Pop!_Planet/pop-guide/dist/assets/seq05.gif)
+
+Well, it seems the `pid` file (basically a "lock file" that says that an application is running) is not writable by the service. This seems like it can be an oversight during installation or that I am not inside of a group.1
